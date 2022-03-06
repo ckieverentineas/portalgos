@@ -113,7 +113,7 @@
         }
         function Anima() {
             Sound_Gudizer();
-            setInterval(Anima, 10)
+            setInterval(Anima, 10000)
             for(let i=0; i<100;i++) {
                 setTimeout(()=> {
                     const test = document.getElementsByTagName('*')[i];
